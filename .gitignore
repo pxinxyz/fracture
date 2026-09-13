@@ -1,0 +1,38 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Cargo
+# Cargo.lock is tracked for binaries / workspaces, but ignore local cargo credentials/overrides
+.cargo/config.local.toml
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# OS Artifacts
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Logs & Diagnostics
+*.log
+logs/
+
+# Local Research & Data caches
+/data/
+/scratch/
+*.parquet
+*.csv.lz4
