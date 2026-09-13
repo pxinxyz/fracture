@@ -1,0 +1,27 @@
+[workspace]
+members = [
+    "crates/fracture-core",
+    "crates/fracture-risk",
+    "crates/fracture-ingest",
+    "crates/fracture-exec",
+    "crates/fracture-research",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["pxin"]
+repository = "https://github.com/pxinxyz/fracture"
+homepage = "https://github.com/pxinxyz/fracture"
+readme = "README.md"
+description = "High-Performance Intraday Microstructure & Cross-Venue Execution Engine for Hyperliquid L1"
+
+[workspace.dependencies]
+# In-workspace crates
+fracture-core = { path = "crates/fracture-core" }
+fracture-risk = { path = "crates/fracture-risk" }
+fracture-ingest = { path = "crates/fracture-ingest" }
+fracture-exec = { path = "crates/fracture-exec" }
+fracture-research = { path = "crates/fracture-research" }

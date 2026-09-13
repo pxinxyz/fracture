@@ -1,0 +1,13 @@
+[package]
+name = "fracture-research"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Event-driven backtesting, latency perturbation simulation, and empirical capacity curve modeling"
+
+[dependencies]
+fracture-core = { workspace = true }
+fracture-risk = { workspace = true }
+fracture-ingest = { workspace = true }

@@ -1,0 +1,11 @@
+[package]
+name = "fracture-ingest"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Dual ingestion engine: Binance futures feed + QuickNode gRPC / local HyperCore node IPC"
+
+[dependencies]
+fracture-core = { workspace = true }

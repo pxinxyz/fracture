@@ -1,0 +1,10 @@
+[package]
+name = "fracture-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Core types, mathematical invariants, POMDP state, and fixed-point representations for Fracture"
+
+[dependencies]

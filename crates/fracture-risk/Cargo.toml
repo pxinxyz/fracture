@@ -1,0 +1,11 @@
+[package]
+name = "fracture-risk"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Top-down PPO capital allocator, adaptive leverage scaling, and real-time liquidation distance sentinel"
+
+[dependencies]
+fracture-core = { workspace = true }

@@ -697,10 +697,11 @@ relevant child AGENTS.md — session memory alone does not persist across a fres
 
 ### 13.9 Child DOX Index
 
-<!-- Populate as child AGENTS.md files are created. One line each: -->
-<!-- - `relative/path/AGENTS.md` — scope: <what subtree it owns> -->
-
-*(empty — no child AGENTS.md registered yet)*
+- `crates/fracture-core/AGENTS.md` — scope: core primitives, POMDP state models, price math, fixed-point representations
+- `crates/fracture-risk/AGENTS.md` — scope: top-down PPO allocator, adaptive leverage scaling, live D_liq sentinel
+- `crates/fracture-ingest/AGENTS.md` — scope: dual ingestion: Binance WS + QuickNode gRPC / local node IPC
+- `crates/fracture-exec/AGENTS.md` — scope: order router, local EIP-712 signer, priority fee engine
+- `crates/fracture-research/AGENTS.md` — scope: event-driven backtester, tick replay, and capacity curve E_net(V)
 
 ---
 
